@@ -56,6 +56,10 @@
   color: #FFFFFF;
 }
 
+.Products-item button:active {
+  background-color: #121f3d;
+}
+
 .fa-cart-arrow-down {
   font-size: 20px;
 }

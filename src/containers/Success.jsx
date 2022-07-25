@@ -17,8 +17,6 @@ const Success = () => {
           <h2>{buyer.length > 0 ? buyer[0].name : "Name"}, thanks for your purchase</h2>
           <span>Your order will arrive in 3 days at your address: {buyer.length > 0 ? buyer[0].address : "Undefined location"}</span>
           <div className="check"></div>
-          <div className="Success-map">
-          </div>
         </div>
       </div>
     </>

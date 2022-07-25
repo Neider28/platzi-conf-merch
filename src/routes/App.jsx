@@ -7,6 +7,8 @@ import { Success } from '../containers/Success.jsx';
 import { Payment } from '../containers/Payment.jsx';
 import { Information } from '../containers/Information.jsx';
 import { NotFound } from '../containers/NotFound.jsx';
+import { Cancel } from '../containers/Cancel.jsx';
+import { Error } from '../containers/Error.jsx';
 import { Layout } from '../components/Layout.jsx';
 import { AppContext } from '../context/AppContext.js';
 import { useInitialState } from '../hooks/useInitialState.js';
@@ -28,6 +30,8 @@ const App = () => {
             />
             <Route exact path="/checkout/payment" element={<Payment />} />
             <Route exact path="/checkout/success" element={<Success />} />
+            <Route exact path="/checkout/cancel" element={<Cancel />} />
+            <Route exact path="/checkout/error" element={<Error />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

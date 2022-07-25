@@ -72,6 +72,12 @@ const Payment = () => {
                     handlePaymentSuccess(details);
                   });
                 }}
+                onError={() => {
+                  history('/checkout/error');
+                }}
+                onCancel={() => {
+                  history('/checkout/cancel');
+                }}
               />
             </PayPalScriptProvider>
           </div>
