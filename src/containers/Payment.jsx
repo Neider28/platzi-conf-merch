@@ -35,11 +35,11 @@ const Payment = () => {
   return (
     <>
       <Helmet>
-        <tittle>Checkout | Payment</tittle>
+        <title>Checkout | Payment</title>
       </Helmet>
       <div className="Payment">
       <div className="Payment-content">
-        <h3>Resumen del pedido</h3>
+        <h3>Order summary</h3>
         {cart.map((item) => (
           <div className="Payment-item" key={item.title}>
             <div className="Payment-element">

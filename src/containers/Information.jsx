@@ -35,7 +35,7 @@ const Information = () => {
   return (
     <>
       <Helmet>
-        <tittle>Checkout | Information</tittle>
+        <title>Checkout | Information</title>
       </Helmet>
       <div className="Information">
         <div className="Information-content">

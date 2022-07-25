@@ -22,7 +22,7 @@ const Checkout = () => {
   return (
     <>
       <Helmet>
-        <tittle>Checkout | Cart</tittle>
+        <title>Checkout | Cart</title>
       </Helmet>
       <div className={cart.length > 0 ? 'Checkout' : 'Checkout-empty'}>
       <div className="Checkout-content">

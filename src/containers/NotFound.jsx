@@ -6,9 +6,9 @@ const NotFound = () => {
   return (
     <>
       <Helmet>
-        <tittle>Not Found</tittle>
-        <div className="not-found"> </div>;
+        <title>Not Found</title>
       </Helmet>
+      <div className="not-found"> </div>;
     </>
   );
 };

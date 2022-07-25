@@ -10,7 +10,7 @@ const Success = () => {
   return (
     <>
       <Helmet>
-      <tittle>Checkout | Success</tittle>
+      <title>Checkout | Success</title>
       </Helmet>
       <div className="Success">
         <div className="Success-content">

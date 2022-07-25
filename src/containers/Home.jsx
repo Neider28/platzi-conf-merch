@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
+        <title>PlatziConf Merch</title>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@TU_USER"/>
         <meta name="twitter:creator" content="@TU_USER"/>
