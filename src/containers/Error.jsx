@@ -7,14 +7,14 @@ const Error = () => {
   return (
     <>
       <Helmet>
-      <title>Checkout | Error</title>
+        <title>Checkout | Error</title>
       </Helmet>
       <div className="Error">
         <div className="Error-image"></div>
         <div className="Error-content">
-            <Link to="/checkout">
-                <button>Try again</button>
-            </Link>
+          <Link to="/checkout">
+            <button>Try again</button>
+          </Link>
         </div>
       </div>
     </>

@@ -8,7 +8,7 @@ const Header = () => {
   const { cart } = state;
 
   const reducer = (acumulador, currentValue) => acumulador + currentValue.qty;
-  const totalQty = cart.reduce(reducer, 0)
+  const totalQty = cart.reduce(reducer, 0);
 
   return (
     <div className="Header">

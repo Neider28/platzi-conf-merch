@@ -10,12 +10,18 @@ const Success = () => {
   return (
     <>
       <Helmet>
-      <title>Checkout | Success</title>
+        <title>Checkout | Success</title>
       </Helmet>
       <div className="Success">
         <div className="Success-content">
-          <h2>{buyer.length > 0 ? buyer[0].name : "Name"}, thanks for your purchase</h2>
-          <span>Your order will arrive in 3 days at your address: {buyer.length > 0 ? buyer[0].address : "Undefined location"}</span>
+          <h2>
+            {buyer.length > 0 ? buyer[0].name : 'Name'}, thanks for your
+            purchase
+          </h2>
+          <span>
+            Your order will arrive in 3 days at your address:{' '}
+            {buyer.length > 0 ? buyer[0].address : 'Undefined location'}
+          </span>
           <div className="check"></div>
         </div>
       </div>

@@ -9,21 +9,21 @@ const useInitialState = () => {
     const cartList = state.cart;
     let newCartList = cartList;
 
-    const index = cartList.findIndex(item => item.id === payload.id);
+    const index = cartList.findIndex((item) => item.id === payload.id);
 
-    if(index >= 0) {
+    if (index >= 0) {
       newCartList[index] = {
         ...newCartList[index],
-        qty: newCartList[index].qty + 1
-      }
+        qty: newCartList[index].qty + 1,
+      };
     } else {
       payload.qty = 1;
-      newCartList = [...cartList, payload]
+      newCartList = [...cartList, payload];
     }
 
     setState({
-        ...state,
-        cart: newCartList
+      ...state,
+      cart: newCartList,
     });
   };
 
@@ -31,24 +31,24 @@ const useInitialState = () => {
     const cartList = state.cart;
     let newCartList = cartList;
 
-    const index = cartList.findIndex(item => item.id === payload.id);
+    const index = cartList.findIndex((item) => item.id === payload.id);
     newCartList[index] = {
-        ...newCartList[index],
-        qty: newCartList[index].qty - 1
-    }
+      ...newCartList[index],
+      qty: newCartList[index].qty - 1,
+    };
 
-    const updatedList = newCartList.filter(item => item.qty > 0);
+    const updatedList = newCartList.filter((item) => item.qty > 0);
 
     setState({
-        ...state,
-        cart: updatedList,
+      ...state,
+      cart: updatedList,
     });
   };
 
   const cleanCart = (payload) => {
     setState({
       ...state,
-      cart: state.cart = [],
+      cart: (state.cart = []),
     });
   };
 
@@ -74,7 +74,7 @@ const useInitialState = () => {
     openModal,
     setOpenModal,
     addNewOrder,
-    cleanCart
+    cleanCart,
   };
 };
 

@@ -15,7 +15,7 @@ export default {
       image: 'https://arepa.s3.amazonaws.com/mug.png',
       title: 'Mug',
       price: 10,
-      description: '"Never stop learning" coffee mug.',
+      description: '"Never stop learning" coffee mug',
     },
     {
       id: '3',

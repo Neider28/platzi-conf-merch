@@ -7,14 +7,14 @@ const Cancel = () => {
   return (
     <>
       <Helmet>
-      <title>Checkout | Cancel</title>
+        <title>Checkout | Cancel</title>
       </Helmet>
       <div className="Cancel">
         <div className="Cancel-image"></div>
         <div className="Cancel-content">
-            <Link to="/checkout">
-                <button>Try again</button>
-            </Link>
+          <Link to="/checkout">
+            <button>Try again</button>
+          </Link>
         </div>
       </div>
     </>
