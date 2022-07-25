@@ -1,0 +1,24 @@
+.Footer {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px 20px 0px;
+  background-color: #121f3d;
+  color: #FFFFFF;
+  text-align: center;
+  border-bottom: #98ca3f solid 3px;
+}
+
+.Footer-made {
+  margin-top: 50px;
+}
+
+.Footer .github {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-image: url('../../images/github.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

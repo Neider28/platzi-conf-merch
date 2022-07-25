@@ -1,0 +1,33 @@
+.Success {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 20px 0px;
+}
+
+.Success-map {
+  margin: 10px 0 0 0;
+}
+
+.check {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: url('../../images/order-check.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 600px) {
+  .Success {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Success {
+    width: 700px;
+  }
+}

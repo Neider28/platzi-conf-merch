@@ -1,0 +1,79 @@
+.Information-modal {
+    width: 60%;
+    height: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.Information-modal-head {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.Information-modal-head button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.Information-modal-head button svg {
+    width: 24px;
+    height: 24px;
+}
+
+.Information-modal-head h3 {
+    font-size: 25px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.Information-modal-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Information-modal-item .fas {
+    margin: 0 0 0 10px;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.Information-modal-item button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.Information-modal-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.Information-modal-element h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.Information-modal-element span {
+    font-size: 20px;
+    margin: 0;
+}
+
+.empty {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('../../images/empty.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
