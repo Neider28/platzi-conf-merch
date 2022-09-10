@@ -47,14 +47,14 @@ const Information = () => {
           </div>
           <div className="Information-form">
             <form ref={form}>
-              <input type="text" placeholder="Full name" name="name" />
-              <input type="email" placeholder="Email" name="email" />
-              <input type="text" placeholder="Address" name="address" />
-              <input type="city" placeholder="City" name="city" />
-              <input type="county" placeholder="Country" name="country" />
-              <input type="text" placeholder="State" name="state" />
-              <input type="text" placeholder="Postal code" name="cp" />
-              <input type="tel" placeholder="Phone" name="phone" />
+              <input type="text" placeholder="Full name" name="name" required />
+              <input type="email" placeholder="Email" name="email" required />
+              <input type="text" placeholder="Address" name="address" required />
+              <input type="city" placeholder="City" name="city" required />
+              <input type="county" placeholder="Country" name="country" required />
+              <input type="text" placeholder="State" name="state" required />
+              <input type="text" placeholder="Postal code" name="cp" required />
+              <input type="tel" placeholder="Phone" name="phone" required />
             </form>
           </div>
           <div className="Information-buttons">
